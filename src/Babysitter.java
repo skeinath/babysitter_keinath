@@ -13,4 +13,8 @@ public class Babysitter {
 		return i*8;
 	}
 
+	public Object hoursWorkedBetweenMidnightAndEnd(int i) {
+		return i*16;
+	}
+
 }

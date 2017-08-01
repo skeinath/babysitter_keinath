@@ -34,5 +34,10 @@ public class BabysitterTest {
         assertEquals(16, babysitter.hoursWorkedBetweenMidnightAndEnd(1));
         assertEquals(32, babysitter.hoursWorkedBetweenMidnightAndEnd(2));
     }
+	
+	@Test
+	public void whenTotalHoursWorkedIsPassedAStartTimeAndEndTimeItReturnsTotalNumberOfHours() {
+        assertEquals(7, babysitter.TotalHoursWorked(5,12));
+    }
 
 }

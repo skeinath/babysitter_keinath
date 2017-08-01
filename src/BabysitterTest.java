@@ -55,8 +55,8 @@ public class BabysitterTest {
 	
 	@Test
 	public void whenTotalHoursWorkedBetweenMidnightAndEndIsPassedAStartTimeAndEndTimeItReturnsTotalNumberOfHoursWorkedBetweenMidnightAndEnd() {
-        assertEquals(4, babysitter.TotalHoursWorkedBetweenMidnightAndEnd(5,12,8));
-        assertEquals(3, babysitter.TotalHoursWorkedBetweenMidnightAndEnd(5,2,9));
+        assertEquals(0, babysitter.TotalHoursWorkedBetweenMidnightAndEnd(5,12));
+        assertEquals(2, babysitter.TotalHoursWorkedBetweenMidnightAndEnd(5,2));
     }
 
 }

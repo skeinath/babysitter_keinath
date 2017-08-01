@@ -32,4 +32,11 @@ public class Babysitter {
 		return 12-k;
 	}
 
+	public Object TotalHoursWorkedBetweenMidnightAndEnd(int i, int j) {
+		if(j<5)
+			return j;
+		else
+			return 0;
+	}
+
 }

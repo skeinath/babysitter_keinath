@@ -18,3 +18,11 @@ The babysitter:
 *As a babysitter<br>
 In order to get paid for 1 night of work<br>
 I want to calculate my nightly charge<br>*
+
+
+## Kata Explanation
+The basic rules have been accounted for & tested.<br>
+Please let me know if you would like a main class/program<br>
+in order to show further logic (and possible refactoring).<br>
+Thank you,<br>
+*Steve Keinath*

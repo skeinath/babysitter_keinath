@@ -18,7 +18,10 @@ public class Babysitter {
 	}
 
 	public Object TotalHoursWorked(int i, int j) {
-		return j-i;
+		if(j<5) 
+			return 12-i+j;
+		else 
+			return j-i;
 	}
 
 }

@@ -28,4 +28,8 @@ public class Babysitter {
 		return k-i;
 	}
 
+	public Object TotalHoursWorkedBetweenBedtimeAndMisnight(int i, int j, int k) {
+		return 12-k;
+	}
+
 }

@@ -22,5 +22,11 @@ public class BabysitterTest {
         assertEquals(12, babysitter.hoursWorkedBeforeBedtime(1));
         assertEquals(24, babysitter.hoursWorkedBeforeBedtime(2));
     }
+	
+	@Test
+	public void whenHoursWorkedBetweenBedtimeAndMidnightIsPassedANumberItReturnsThatNumberTimesEight() {
+        assertEquals(8, babysitter.hoursWorkedBetweenBedtimeAndMidnight(1));
+        assertEquals(16, babysitter.hoursWorkedBetweenBedtimeAndMidnight(2));
+    }
 
 }

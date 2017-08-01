@@ -24,4 +24,8 @@ public class Babysitter {
 			return j-i;
 	}
 
+	public Object TotalHoursWorkedBeforeBedtime(int i, int j, int k) {
+		return k-i;
+	}
+
 }
